@@ -1,4 +1,9 @@
-recurit 招募
+recurit 征召
 build 建设
 remove 移除
 estimate 消灭
+
+响应牌：当…时触发
+状态牌：当…时发动
+
+发起陆战
