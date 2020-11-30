@@ -1,0 +1,31 @@
+[
+    {
+        "country": "UK",
+        "title": "轰炸机军团",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "你可选择德国或意大利，其须弃置摸牌堆顶的 4 张牌。"
+    },
+    {
+        "country": "UK",
+        "title": "佩塔尔二世在南斯拉夫即位",
+        "type": "Event",
+        "expansion": "base",
+        "text": "移除在<巴尔干>的一个轴心国陆军。在<巴尔干>征召英国陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "自由法国",
+        "meme": "戴高乐领导法国",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的出牌阶段发动：你可放弃出牌并弃置 2 张手牌，在<西欧>建设陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "麦肯锡国王起草国家资源动员法",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段发动：若在<北大西洋>有英国海军，你获得 1 VP；若在<加拿大>有英国陆军，你获得 1 VP。"
+    }
+]
