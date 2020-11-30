@@ -1,5 +1,5 @@
 recurit 征召
-build 建设
+build 设立
 remove 移除
 estimate 消灭
 
