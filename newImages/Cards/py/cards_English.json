@@ -1,0 +1,150 @@
+[
+    {
+        "country": "UK",
+        "title": "轰炸机军团",
+        "type": "EcoWar",
+        "Expansion": "base",
+        "text": "你可选择德国或意大利，其须弃置摸牌堆顶的 4 张牌。"
+    },
+    {
+        "country": "UK",
+        "title": "马耳他的潜艇舰队",
+        "type": "EcoWar",
+        "Expansion": "base",
+        "text": "德国和意大利各自弃置其摸牌堆顶的 2 张牌，或移除其在<地中海>的海军。"
+    },
+    {
+        "country": "UK",
+        "title": "荷属东印度",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "在<印度尼西亚>征召陆军；在<新几内亚>征召陆军；在<南海>征召海军。"
+    },
+    {
+        "country": "UK",
+        "title": "斯马茨将军强化对英关系",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "在<非洲南部>征召陆军；在<南大西洋>或<孟加拉湾>征召海军。"
+    },
+    {
+        "country": "UK",
+        "title": "增加英联邦的支持",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "在<印度>或<澳大利亚>或<加拿大>征召陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "佩塔尔二世在南斯拉夫即位",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "移除在<巴尔干>的一个轴心国陆军。在<巴尔干>征召英国陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "中印滇缅公路",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "在<东南亚>建设陆军，在<中国东部>或<中国西部>发起陆战。"
+    },
+    {
+        "country": "UK",
+        "title": "新加坡要塞化",
+        "type": "Event",
+        "Expansion": "base",
+        "text": "在<东南亚>征召陆军，在<南海>征召海军。"
+    },
+    {
+        "country": "UK",
+        "title": "反潜战术",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当轴心国使用【经济战】卡牌时触发：此【经济战】卡牌效果无效。"
+    },
+    {
+        "country": "UK",
+        "title": "破译恩尼格玛密码",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当德国使用【状态卡】时触发：在结算该【状态卡】效果后，弃置此【状态卡】。"
+    },
+    {
+        "country": "UK",
+        "title": "配给",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "在你的出牌阶段使用一张卡牌后触发：将你使用的这张卡牌加入摸牌堆洗混。"
+    },
+    {
+        "country": "UK",
+        "title": "防御性配置",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当你处于补给状态的陆军将被移除时触发：本回合此陆军不会被移除。"
+    },
+    {
+        "country": "UK",
+        "title": "驱逐舰",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当处于补给状态的美国或英国海军将被移除时触发：本回合此海军不会被移除。"
+    },
+    {
+        "country": "UK",
+        "title": "忠于皇室",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当轴心国的陆军在<印度>或<澳大利亚>或<加拿大>建设时触发：立刻移除其建设的陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "皇家空军",
+        "type": "Resp",
+        "Expansion": "base",
+        "text": "当位于或邻接<不列颠群岛>的英国部队将被移除时触发：本回合此部队不会被移除。"
+    },
+    {
+        "country": "UK",
+        "title": "澳大利亚劳管所",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "当你建设陆军时发动：你可在<澳大利亚>征召陆军来代替建设陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "自由法国",
+        "meme": "戴高乐领导法国",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "在你的出牌阶段发动：你可放弃出牌并弃置 2 张手牌，在<西欧>建设陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "维克托·霍普宣布印度参战",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "当你建设陆军时发动：你可在<印度>征召陆军来代替建设陆军。"
+    },
+    {
+        "country": "UK",
+        "title": "麦肯锡国王起草国家资源动员法",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "在你的计分阶段发动：若在<北大西洋>有英国海军，你获得 1 VP；若在<加拿大>有英国陆军，你获得 1 VP。"
+    },
+    {
+        "country": "UK",
+        "title": "反法西斯抵抗运动",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "在你的出牌阶段发动：你可放弃出牌并弃置 2 张手牌，在<西欧>或<意大利>发起陆战。"
+    },
+    {
+        "country": "UK",
+        "title": "皇家海军",
+        "type": "Status",
+        "Expansion": "base",
+        "text": "每回合限一次。当你发起海战时发动：你可弃置 2 张手牌，在发起海战的海域或另一个海域发起海战。"
+    }
+]
