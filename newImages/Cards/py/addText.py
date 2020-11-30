@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import cv2
 from PIL import ImageFont, ImageDraw, Image
 import numpy as np
 import TextWrapper
@@ -10,8 +9,9 @@ import Card
 def draw_card(card):
     text_list = TextWrapper.fw_wrap(card.text, 50)
 
-    # image
-    card_img = cv2.imread("test.png")
+    # image 287*390
+    img_pil = Image.open("../../resources/" + card.type + "_UK.png")
+    draw = ImageDraw.Draw(img_pil)
 
     # font
     fontpath_bold = "C:\WINDOWS\Fonts\SourceHanSansSC-Bold.otf"
@@ -20,8 +20,6 @@ def draw_card(card):
     font_title = ImageFont.truetype(fontpath_bold, 15)
     font_text = ImageFont.truetype(fontpath_medium, 13)
     font_meme = ImageFont.truetype(fontpath_regular, 13)
-    img_pil = Image.fromarray(card_img)
-    draw = ImageDraw.Draw(img_pil)
 
     # draw
     init_x, init_y, pad = 32, 265, 0
@@ -46,17 +44,28 @@ def draw_card(card):
         draw.line((meme_x, line_y, meme_x + meme_w, line_y),
                   fill=(127, 127, 127))
 
-    card_img = np.array(img_pil)
-
-    cv2.imshow("add_text", card_img)
-    cv2.waitKey()
-    cv2.imwrite("add_text.jpg", card_img)
+    return img_pil
 
 
 # text
-with open("test.json") as f:
+with open("../text/cards_UK.json") as f:
+    basic_cards = {"BA": 5, "LB": 4, "BN": 5, "SB": 5}
     cards_data = json.load(f)
+    cards_images = []
+    for (type, num) in basic_cards.items():
+        bc_img = Image.open("../../resources/" + type + "_UK.png")
+        for i in range(num):
+            cards_images.append(bc_img)
     for card_dict in cards_data:
         card = Card.Card()
         card.__dict__ = card_dict
-        draw_card(card)
+        cards_images.append(draw_card(card))
+
+    width, height = cards_images[0].size
+    spliced_image = Image.new(cards_images[0].mode, (width * 10, height * 7))
+    for i, image in enumerate(cards_images):
+        spliced_image.paste(image, box=(width * (i % 10), height * (i // 10)))
+    back_image = Image.open("../../resources/back_UK.png").resize(
+        (width, height), Image.BILINEAR)
+    spliced_image.paste(back_image, box=(width * 9, height * 6))
+    spliced_image.save('test_spliced.png')
