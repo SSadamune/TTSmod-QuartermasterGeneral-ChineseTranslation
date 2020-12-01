@@ -82,9 +82,9 @@ def splice_images(country, basic_cards):
         spliced_base.save("../cards_" + country + "_base.png")
 
 
-# splice_images("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5})
-# splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4})
-# splice_images("CCCP", {"BA": 8, "LB": 6, "BN": 1, "SB": 2})
-# splice_images("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2})
-# splice_images("ITA", {"BA": 4, "LB": 4, "BN": 3, "SB": 2})
+splice_images("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5})
+splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4})
+splice_images("CCCP", {"BA": 8, "LB": 6, "BN": 1, "SB": 2})
+splice_images("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2})
+splice_images("ITA", {"BA": 4, "LB": 4, "BN": 3, "SB": 2})
 splice_images("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4})
