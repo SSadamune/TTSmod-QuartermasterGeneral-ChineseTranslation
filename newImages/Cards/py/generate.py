@@ -18,7 +18,7 @@ def draw_card(card):
     fontpath_medium = "../../resources/SourceHanMono-Medium.otf"
     font_title = ImageFont.truetype(fontpath_bold, 15)
     font_text = ImageFont.truetype(fontpath_medium, 13)
-    font_meme = ImageFont.truetype(fontpath_medium, 15)
+    font_meme = ImageFont.truetype(fontpath_medium, 14)
 
     # draw
     init_x, init_y, pad = 36, 265, 0
@@ -34,12 +34,12 @@ def draw_card(card):
 
     if (card.meme):
         meme_w, meme_h = draw.textsize(card.meme, font=font_meme)
-        meme_x, meme_y = init_x + title_w + 10, init_y + (title_h - meme_h) / 2
+        meme_x, meme_y = init_x + title_w + 10, init_y + title_h - meme_h
         draw.text((meme_x, meme_y),
                   card.meme,
                   font=font_meme,
                   fill=(127, 127, 127))
-        line_y = init_y + 2 + meme_h / 2
+        line_y = init_y + 3 + meme_h / 2
         draw.line((meme_x, line_y, meme_x + meme_w, line_y),
                   fill=(127, 127, 127),
                   width=2)
