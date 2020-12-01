@@ -14,8 +14,8 @@ def draw_card(card):
     draw = ImageDraw.Draw(img_pil)
 
     # font
-    fontpath_bold = "../../resources/SourceHanMono-Bold.otf"
-    fontpath_medium = "../../resources/SourceHanMono-Medium.otf"
+    fontpath_bold = "../../resources/SourceHanMonoSC-Bold.otf"
+    fontpath_medium = "../../resources/SourceHanMonoSC-Medium.otf"
     font_title = ImageFont.truetype(fontpath_bold, 15)
     font_text = ImageFont.truetype(fontpath_medium, 13)
     font_meme = ImageFont.truetype(fontpath_medium, 14)
