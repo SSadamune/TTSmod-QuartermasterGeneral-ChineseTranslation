@@ -36,7 +36,7 @@
     },
     {
         "country": "US",
-        "title": "民主主义兵工厂",
+        "title": "民主兵工厂",
         "type": "Event",
         "expansion": "base",
         "text": "英国可按任意顺序建设一支陆军和一支海军。"
@@ -85,14 +85,14 @@
     },
     {
         "country": "US",
-        "title": "魔法作战",
+        "title": "代号：Magic",
         "type": "Event",
         "expansion": "base",
         "text": "从桌面弃置日本的一张【响应卡】。（此卡的内容不公开）"
     },
     {
         "country": "US",
-        "title": "巴顿将军出击",
+        "title": "进击的巴顿",
         "type": "Event",
         "expansion": "base",
         "text": "在<西欧>建设陆军。在<日耳曼>或<意大利>发起陆战。"
@@ -113,7 +113,7 @@
     },
     {
         "country": "US",
-        "title": "扩大征召志愿军",
+        "title": "飞虎队扩编",
         "type": "Status",
         "expansion": "base",
         "text": "位于<中国西部>的同盟国陆军处于补给状态。你的出牌阶段：你可放弃出牌并弃置牌堆顶的２张牌，在<中国西部>征召陆军。"
