@@ -1,0 +1,123 @@
+[
+    {
+        "country": "JP",
+        "title": "印度洋警备队",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支位于<孟加拉湾>或与之相邻的日本海军，获得２VP。英国须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "JP",
+        "title": "潜艇支援太平洋诸岛",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支位于<东太平洋>或与之相邻的日本海军，获得２VP。美国须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "JP",
+        "title": "万岁冲锋",
+        "meme": "板载！！",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你发起陆战后触发：在战斗地区或邻接地区发起陆战。"
+    },
+    {
+        "country": "JP",
+        "title": "战舰修理",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你处于补给状态的海军将被移除时触发：本回合这支海军不会被移除。"
+    },
+    {
+        "country": "JP",
+        "title": "全面侵华",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你在<中国东部>或与之相邻的地区发起陆战时触发：在陆战地区建设陆军。在<中国东部>或与之相邻的地区发起陆战。"
+    },
+    {
+        "country": "JP",
+        "title": "驱逐舰运输",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你发起海战时触发：在与战斗地区相邻的地区建设一至两支陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "攻陷新加坡",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你在<东南亚>发起陆战时触发：在<南海>发起海战；在<东南亚>征召陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "神风敢死队",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当同盟国邻接日本部队建设海军时触发：立刻移除其建设的海军。"
+    },
+    {
+        "country": "JP",
+        "title": "关东军",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "在位于<中国东部><中国西部><海参崴><蒙古地区>且处于补给状态的日本陆军将被移除时触发：本回合此陆军不会被移除。"
+    },
+    {
+        "country": "JP",
+        "title": "机动部队",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "在你的回合开始时触发：在<北太平洋>或与之相邻的海域征召一支海军。"
+    },
+    {
+        "country": "JP",
+        "title": "海军特别陆战队",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你建设海军时触发：在你建设海军的邻接地区建设一至两支陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "奇袭",
+        "meme": "不讲武德",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你发起海战时触发：发动一次海战，再发动一次陆战。"
+    },
+    {
+        "country": "JP",
+        "title": "丘克群岛",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "在你回合的任意时机触发：在<中太平洋>或与之相邻的日本部队在此回合中处于获得补给状态。"
+    },
+    {
+        "country": "JP",
+        "title": "前进基地",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：若<夏威夷><太平洋西北地区><新西兰>有日本陆军，获得２VP。"
+    },
+    {
+        "country": "JP",
+        "title": "大东亚共荣圈",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：每有一支位于<印度尼西亚><新几内亚><东南亚>的日本陆军，获得１VP。"
+    },
+    {
+        "country": "JP",
+        "title": "帝国之野望",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：若<硫磺岛><菲律宾>有日本陆军，获得１VP。"
+    },
+    {
+        "country": "JP",
+        "title": "商船安全运输",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：若<夏威夷>没有同盟国的陆军，日本获得１VP。"
+    }
+]

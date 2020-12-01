@@ -1,0 +1,172 @@
+[
+    {
+        "country": "GR",
+        "title": "潜艇 强行封锁",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支邻接<北海>的德国陆军或海军，获得１VP。英国须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "潜艇 主导大西洋海战",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支在版图上的德国海军，获得１VP。英国须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "潜艇 袭击无防备运输船",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "英国须弃置其牌堆顶的２张牌，若在<北海>没有同盟国海军则为３张。德国获得１VP。"
+    },
+    {
+        "country": "GR",
+        "title": "潜艇 袭击摩尔曼斯克运输船队",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支位于<斯堪的纳维亚>或与之相邻的德国陆军或海军，获得１VP。苏联须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "V2飞弹",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "若有德国陆军位于<西欧>，获得３VP。英国须弃置其牌堆顶的１张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "季风狼群",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "选择一个同盟国，其须弃置其牌堆顶的２张牌。德国获得２VP。"
+    },
+    {
+        "country": "GR",
+        "title": "巴巴罗萨",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在你回合开始时使用：对与德国陆军邻接的苏联陆军占领区发动至多三次陆战。"
+    },
+    {
+        "country": "GR",
+        "title": "强制征兵",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<日耳曼>或与之相邻的地区征召一至两支陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "大炮和黄油",
+        "type": "Event",
+        "expansion": "base",
+        "text": "此卡牌可视为【建设陆军】【建设海军】【陆战】【海战】其中之一之一使用。"
+    },
+    {
+        "country": "GR",
+        "title": "巴尔干军事独裁",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<巴尔干>征召一支意大利陆军；在<乌克兰>消灭一支同盟国陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "掠夺",
+        "type": "Event",
+        "expansion": "base",
+        "text": "每有一支位于<日耳曼>之外的德国陆军或海军，你获得１VP。"
+    },
+    {
+        "country": "GR",
+        "title": "高速公路",
+        "type": "Event",
+        "expansion": "base",
+        "text": "收回版图上的所有德国陆军，然后依次重新建设这些陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "丰富的资源",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：每有一支位于<乌克兰>或<哈萨克斯坦>或<罗斯地区>的德国陆军，你获得１VP。"
+    },
+    {
+        "country": "GR",
+        "title": "大西洋防线",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当轴心国的陆军在<西欧>被攻击时：发起陆战的国家须弃置其牌堆顶的３张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "贵在行动",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你建设陆军时：你可弃置牌堆顶的１张牌，在建设陆军的一个邻接地区发起陆战。"
+    },
+    {
+        "country": "GR",
+        "title": "闪电战",
+        "meme": "啪的一声站起来了",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你发起陆战后：你可弃置牌堆顶的１张牌，在战斗地区建设陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "征兵",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的出牌阶段：你可放弃出牌并弃置牌堆顶的２张牌，建设一支陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "俯冲式轰炸机",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你发起陆战后：你可弃置牌堆顶的１张牌，在战斗地区或与之相邻的地区发起陆战。"
+    },
+    {
+        "country": "GR",
+        "title": "喷气式战斗机",
+        "type": "Status",
+        "expansion": "base",
+        "text": "当你成为【经济战】卡的目标时：你须弃置的卡牌数减３，最低为０。"
+    },
+    {
+        "country": "GR",
+        "title": "高级计划",
+        "meme": "低级观星",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，在你的回合开始时：你可观看牌堆顶的４张牌，将其以任意顺序放回牌堆顶。"
+    },
+    {
+        "country": "GR",
+        "title": "瑞典铁矿",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：若<波罗的海>有德国海军，获得１VP。若<斯堪的纳维亚>有德国陆军，获得１VP。"
+    },
+    {
+        "country": "GR",
+        "title": "合成燃料",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你建设陆军后：你可弃置牌堆顶的２张牌，在建设陆军的邻接地区建设一支陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "国民突击队",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，在你的回合开始时：你可弃置牌堆顶的１张牌，在<日耳曼>征召陆军。（不计入出牌阶段的行动）"
+    },
+    {
+        "country": "GR",
+        "title": "群狼战术",
+        "type": "Status",
+        "expansion": "base",
+        "text": "带有【潜艇】字样的【经济战】卡使目标额外弃置２张牌，若<斯堪的纳维亚>有德国陆军则为３张。"
+    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "country": "ITA",
+        "title": "第十驱逐舰舰队",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "英国须弃置其牌堆顶的１张牌，若<地中海>没有同盟国的海军，需再弃置１张。意大利获得１VP。"
+    },{
+        "country": "ITA",
+        "title": "皇家海军封锁海路",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "每有一支在版图上的意大利海军，你获得１VP。英国须弃置其牌堆顶的１张牌。"
+    },{
+        "country": "ITA",
+        "title": "德国非洲军团",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<非洲北部>征召德国陆军，在<地中海>征召德国海军。"
+    },{
+        "country": "ITA",
+        "title": "西班牙蓝色师",
+        "type": "Event",
+        "expansion": "base",
+        "text": "从桌面弃置苏联的一张【响应卡】。（此卡的内容不公开）"
+    },{
+        "country": "ITA",
+        "title": "德国支援希腊战场",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<巴尔干>消灭一支同盟国陆军；在<巴尔干>征召一支德国陆军。"
+    },{
+        "country": "ITA",
+        "title": "意属东非",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<非洲北部>征召陆军；在<孟加拉湾>征召海军。"
+    },{
+        "country": "ITA",
+        "title": "进攻共产国际",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<乌克兰>征召陆军；在<罗斯地区>征召陆军。"
+    },{
+        "country": "ITA",
+        "title": "掠夺",
+        "type": "Event",
+        "expansion": "base",
+        "text": "每有一支位于<意大利>之外的意大利陆军或海军，获得１VP。"
+    },{
+        "country": "ITA",
+        "title": "德国增援反击",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当处于补给状态的意大利陆军被移除后触发：在该地区征召德国陆军。"
+    },{
+        "country": "ITA",
+        "title": "卡西诺山",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当位于<意大利>的轴心国陆军将被移除时触发：本回合该陆军不会被移除。"
+    },{
+        "country": "ITA",
+        "title": "罗马尼亚增援",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当处于补给状态的德国陆军被移除后触发：在该地区征召意大利陆军。"
+    },{
+        "country": "ITA",
+        "title": "王牌飞行员",
+        "type": "Resp",
+        "expansion": "base",
+        "text": "当你成为【经济战】卡的目标时，你须弃置的卡牌数减５，最低为0。"
+    },{
+        "country": "ITA",
+        "title": "反共情绪",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：每有一支位于<罗斯地区><乌克兰>的意大利陆军，获得１VP。"
+    },{
+        "country": "ITA",
+        "title": "巴尔干资源",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：若<巴尔干>有意大利陆军，获得１VP。"
+    },{
+        "country": "ITA",
+        "title": "布拉瓦多",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的出牌阶段：你可放弃出牌并弃置２张牌堆顶的牌，发动一次陆战。"
+    },{
+        "country": "ITA",
+        "title": "意大利殖民地帝国",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：每有一支位于<非洲北部><非洲南部><中东>的轴心国陆军，获得１VP。"
+    },{
+        "country": "ITA",
+        "title": "海王",
+        "type": "Status",
+        "expansion": "base",
+        "text": "在你的计分阶段：每有一支在版图上的意大利海军，获得１VP。"
+    }
+]

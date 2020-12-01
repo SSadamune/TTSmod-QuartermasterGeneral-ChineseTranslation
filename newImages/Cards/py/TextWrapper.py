@@ -6,27 +6,28 @@ import unicodedata
 from itertools import groupby
 
 #copy from docutils
-east_asian_widths = {'W': 3,   # Wide
-                     'F': 3,   # Full-width (wide)
-                     'Na': 1,  # Narrow
-                     'H': 1,   # Half-width (narrow)
-                     'N': 1,   # Neutral (not East Asian, treated as narrow)
-                     'A': 1}   # Ambiguous (s/b wide in East Asian context,
-                               # narrow otherwise, but that doesn't work)
+east_asian_widths = {
+    'W': 3,  # Wide
+    'F': 3,  # Full-width (wide)
+    'Na': 2,  # Narrow
+    'H': 2,  # Half-width (narrow)
+    'N': 2,  # Neutral (not East Asian, treated as narrow)
+    'A': 2
+}  
 
+# Ambiguous (s/b wide in East Asian context,
 #copy from docutils
 def column_width(text):
     """Return the column width of text.
 
     Correct ``len(text)`` for wide East Asian and combining Unicode chars.
     """
-    if isinstance(text, str) and sys.version_info < (3,0):
+    if isinstance(text, str) and sys.version_info < (3, 0):
         return len(text)
-    combining_correction = sum([-1 for c in text
-                                if unicodedata.combining(c)])
+    combining_correction = sum([-1 for c in text if unicodedata.combining(c)])
     try:
-        width = sum([east_asian_widths[unicodedata.east_asian_width(c)]
-                     for c in text])
+        width = sum(
+            [east_asian_widths[unicodedata.east_asian_width(c)] for c in text])
     except AttributeError:  # east_asian_width() New in version 2.4.
         width = len(text)
     return width + combining_correction
@@ -34,7 +35,6 @@ def column_width(text):
 
 class TextWrapper(textwrap.TextWrapper):
     """Custom subclass that uses a different word splitter."""
-
     def _wrap_chunks(self, chunks):
         """_wrap_chunks(chunks : [string]) -> [string]
 
@@ -74,7 +74,8 @@ class TextWrapper(textwrap.TextWrapper):
             if chunks and column_width(chunks[-1]) > width:
                 self._handle_long_word(chunks, cur_line, cur_len, width)
 
-            if self.drop_whitespace and cur_line and cur_line[-1].strip() == '':
+            if self.drop_whitespace and cur_line and cur_line[-1].strip(
+            ) == '':
                 del cur_line[-1]
 
             if cur_line:
@@ -88,10 +89,10 @@ class TextWrapper(textwrap.TextWrapper):
         Break line by unicode width instead of len(word).
         """
         total = 0
-        for i,c in enumerate(word):
+        for i, c in enumerate(word):
             total += column_width(c)
             if total > space_left:
-                return word[:i-1], word[i-1:]
+                return word[:i - 1], word[i - 1:]
         return word, ''
 
     def _split(self, text):

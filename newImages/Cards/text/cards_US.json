@@ -1,0 +1,163 @@
+[
+    {
+        "country": "US",
+        "title": "B-24解放者",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "距离<意大利>两个地区以内存在美国陆军，意大利须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "B-26掠夺者",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "若美国陆军距离某轴心国本土三个地区以内，该轴心国须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "B-29超级堡垒",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "若美国陆军距离<日耳曼>三个地区以内，德国须弃置牌堆顶的５张牌。"
+    },
+    {
+        "country": "US",
+        "title": "燃烧弹轰炸",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "若美国陆军或海军距离某轴心国本土一个地区以内，该轴心国须弃置牌堆顶的７张牌。"
+    },
+    {
+        "country": "US",
+        "title": "SBD无畏式俯冲轰炸机",
+        "type": "EcoWar",
+        "expansion": "base",
+        "text": "若美国海军距离<日本>两个地区以内，日本须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "民主主义兵工厂",
+        "type": "Event",
+        "expansion": "base",
+        "text": "英国可按任意顺序建设一支陆军和一支海军。"
+    },
+    {
+        "country": "US",
+        "title": "珍珠港部署舰队",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<夏威夷>征召陆军；在邻接<夏威夷>的海域建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "广阔的资源",
+        "type": "Event",
+        "expansion": "base",
+        "text": "你可使用弃牌堆中的１张牌。"
+    },
+    {
+        "country": "US",
+        "title": "自由法国同盟",
+        "type": "Event",
+        "expansion": "base",
+        "text": "英国可在<西欧>或<非洲北部>或<非洲南部>征召一支陆军。"
+    },
+    {
+        "country": "US",
+        "title": "瓜达尔卡纳尔岛",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<新西兰>征召陆军；在邻接<新西兰>的海域建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "武器援助",
+        "type": "Event",
+        "expansion": "base",
+        "text": "选择<英国>或<苏联>，该同盟国可使用１张手牌，并从摸牌堆摸１张牌。"
+    },
+    {
+        "country": "US",
+        "title": "摩尔曼斯克运输船队",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<罗斯地区>征召苏联陆军。苏联可建设一支陆军。"
+    },
+    {
+        "country": "US",
+        "title": "魔法作战",
+        "type": "Event",
+        "expansion": "base",
+        "text": "从桌面弃置日本的一张【响应卡】。（此卡的内容不公开）"
+    },
+    {
+        "country": "US",
+        "title": "巴顿将军出击",
+        "type": "Event",
+        "expansion": "base",
+        "text": "在<西欧>建设陆军。在<日耳曼>或<意大利>发起陆战。"
+    },
+    {
+        "country": "US",
+        "title": "战区移动",
+        "type": "Event",
+        "expansion": "base",
+        "text": "收回版图上的所有美国陆军，然后依次重新建设这些陆军。"
+    },
+    {
+        "country": "US",
+        "title": "航空母舰",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你发起海战时：你可弃置牌堆顶的１张牌，在该地区建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "扩大征召志愿军",
+        "type": "Status",
+        "expansion": "base",
+        "text": "位于<中国西部>的同盟国陆军处于补给状态。你的出牌阶段：你可放弃出牌并弃置牌堆顶的２张牌，在<中国西部>征召陆军。"
+    },
+    {
+        "country": "US",
+        "title": "登陆作战",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你发起陆战时：若陆战的地区邻接处于补给状态的美国海军，你可弃置牌堆顶的１张牌，在该地区建设陆军。"
+    },
+    {
+        "country": "US",
+        "title": "空中堡垒",
+        "type": "Status",
+        "expansion": "base",
+        "text": "当你使用【经济战】卡时：轴心国须弃置的卡牌数增加２张。"
+    },
+    {
+        "country": "US",
+        "title": "雷达",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你处于补给状态的海军被攻击时：你可弃置牌堆顶的２张牌，被攻击的海军不会被移除。"
+    },
+    {
+        "country": "US",
+        "title": "铆钉女工",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，在你的弃牌阶段开始时：你可将１至２张手牌放在摸牌堆底。"
+    },
+    {
+        "country": "US",
+        "title": "先进造船厂",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你建设海军时：你可弃置牌堆顶的１张牌，额外建设一支海军。"
+    },
+    {
+        "country": "US",
+        "title": "战时生产",
+        "type": "Status",
+        "expansion": "base",
+        "text": "每回合限一次，当你建设陆军时：你可弃置牌堆顶的１张牌，额外建设一支陆军。"
+    }
+]
