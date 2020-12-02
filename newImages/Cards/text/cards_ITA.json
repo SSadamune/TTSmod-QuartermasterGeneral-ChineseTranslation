@@ -70,7 +70,7 @@
         "title": "王牌飞行员",
         "type": "Resp",
         "expansion": "base",
-        "text": "当你成为【经济战】卡的目标时，你须弃置的卡牌数减５，最低为0。"
+        "text": "当你成为【经济战卡】的目标时，你须弃置的卡牌数减５，最低为0。"
     },{
         "country": "ITA",
         "title": "反共情绪",
@@ -101,5 +101,12 @@
         "type": "Status",
         "expansion": "base",
         "text": "在你的计分阶段：每有一支在版图上的意大利海军，获得１VP。"
+    },
+    {
+        "country": "ITA",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
     }
 ]

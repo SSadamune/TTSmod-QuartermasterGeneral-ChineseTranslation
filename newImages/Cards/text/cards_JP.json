@@ -19,7 +19,7 @@
         "meme": "板载！！",
         "type": "Resp",
         "expansion": "base",
-        "text": "当你发起陆战后触发：在战斗地区或邻接地区发起陆战。"
+        "text": "当你发起陆战后触发：在战斗地区或相邻地区发起陆战。"
     },
     {
         "country": "JP",
@@ -33,7 +33,7 @@
         "title": "全面侵华",
         "type": "Resp",
         "expansion": "base",
-        "text": "当你在<中国东部>或与之相邻的地区发起陆战时触发：在战斗地区建设陆军；在<中国东部>或与之相邻的地区发起陆战。"
+        "text": "当你在<中国东部>或其相邻地区发起陆战时触发：在战斗地区建设陆军；在<中国东部>或其相邻地区发起陆战。"
     },
     {
         "country": "JP",
@@ -75,7 +75,7 @@
         "title": "海军特别陆战队",
         "type": "Resp",
         "expansion": "base",
-        "text": "当你建设海军时触发：在你建设海军的邻接地区建设一至两支陆军。"
+        "text": "当你建设海军时触发：在你建设海军的相邻地区建设一至两支陆军。"
     },
     {
         "country": "JP",
@@ -119,5 +119,82 @@
         "type": "Status",
         "expansion": "base",
         "text": "在你的计分阶段：若<夏威夷>没有同盟国的陆军，日本获得１VP。"
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "绝对国防领域",
+        "type": "Status",
+        "expansion": "am/ah",
+        "text": "在你的计分阶段：若版图上有至少３支日本海军，获得１VP。"
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Status",
+        "expansion": "am/ah",
+        "text": ""
+    },
+    {
+        "country": "JP",
+        "title": "",
+        "type": "Status",
+        "expansion": "am/ah",
+        "text": ""
     }
 ]

@@ -64,10 +64,14 @@ def splice_images(country, basic_cards):
         for card_dict in cards_data:
             card = Card.Card()
             card.__dict__ = card_dict
+
             if card.expansion == "base":
                 cards_base.append(draw_card(card))
             elif card.expansion == "am/ah":
+                cards_base.append(draw_card(card))
+            elif card.expansion == "base-substituted":
                 pass
+
         spliced_base = Image.new(cards_base[0].mode, (width * 10, height * 7))
         for i, image in enumerate(cards_base):
             spliced_base.paste(image,
@@ -79,12 +83,25 @@ def splice_images(country, basic_cards):
         spliced_base.paste(back_image, box=(width * 9, height * 6))
 
         # save file
-        spliced_base.save("../cards_" + country + "_base.png")
+        spliced_base.save("../QMG_cards_" + country + "_Ex.png")
 
 
-splice_images("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5})
-splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4})
-splice_images("CCCP", {"BA": 8, "LB": 6, "BN": 1, "SB": 2})
-splice_images("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2})
-splice_images("ITA", {"BA": 4, "LB": 4, "BN": 3, "SB": 2})
-splice_images("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4})
+def generate_ver_base():
+    splice_images("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5})
+    splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4})
+    splice_images("USSR", {"BA": 8, "LB": 6, "BN": 1, "SB": 2})
+    splice_images("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2})
+    splice_images("ITA", {"BA": 4, "LB": 4, "BN": 3, "SB": 2})
+    splice_images("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4})
+
+
+def generate_ver_amah():
+    splice_images("UK", {"BA": 5, "LB": 4, "BN": 6, "SB": 5, "DAF": 4})
+    splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4, "DAF": 6})
+    splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "DAF": 3})
+    splice_images("GR", {"BA": 6, "LB": 8, "BN": 2, "SB": 2, "DAF": 5})
+    splice_images("ITA", {"BA": 4, "LB": 5, "BN": 4, "SB": 2, "DAF": 3})
+    splice_images("JP", {"BA": 4, "LB": 3, "BN": 7, "SB": 4, "DAF": 5})
+
+
+splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "DAF": 3})
