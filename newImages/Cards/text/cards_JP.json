@@ -26,7 +26,7 @@
         "title": "战舰修理",
         "type": "Resp",
         "expansion": "base",
-        "text": "当你处于补给状态的海军将被移除时触发：本回合这支海军不会被移除。"
+        "text": "当处于补给状态的日本海军将被移除时触发：本回合这支海军不会被移除。"
     },
     {
         "country": "JP",
@@ -122,59 +122,137 @@
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "秋水火箭战斗机",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "在你的弃牌阶段开始时使用：移除１支邻接日本空军的同盟国空军。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "大日本帝国海军",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "meme": "好！很有精神！",
+        "text": "当你建设海军时使用：从手牌中弃置１张【响应卡】，额外建设１支海军。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "武士道",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "当你的陆军被发起陆战时使用：从手牌中弃置１张【响应卡】，此战斗中该陆军不会被移除。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "诸岛要塞",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "在你的计分阶段开始时使用：从手牌中弃置１张【响应卡】，在<印度尼西亚><新几内亚><硫磺岛><菲律宾>其中之一征召陆军。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "南云忠一指挥第一航空舰队",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "当你在海域部署或调度空军时使用：从手牌中弃置１张【响应卡】，在与该空军相邻的１个区域发动战斗。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "太平洋帝国",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "在你的计分阶段使用：每有１支位于任意<太平洋>海域的日本海军，获得１VP。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "虎！虎！虎！",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "当你在<中太平洋>或与之相邻的地区夺取制空权时使用：从手牌中弃置１张【响应卡】，在该地区发动战斗。"
     },
     {
         "country": "JP",
-        "title": "",
+        "title": "山本五十六指挥大和号",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "在你的出牌阶段开始时使用：从手牌中弃置１张【响应卡】，在处于补给状态的日本海军位于的海域部署空军。"
+    },
+    {
+        "country": "JP",
+        "title": "轰炸重庆",
+        "type": "EcoWar",
+        "expansion": "am/ah",
+        "text": "每有１支位于<中国西部>或与之相邻的日本空军，获得１VP。美国须弃置其摸牌堆顶的２张牌。"
+    },
+    {
+        "country": "JP",
+        "title": "气球炸弹",
+        "type": "EcoWar",
+        "expansion": "am/ah",
+        "text": "获得１VP。使用此卡后：你可弃置３张手牌，将此牌返回你的手牌。"
+    },
+    {
+        "country": "JP",
+        "title": "日本海军封锁海参崴",
+        "type": "EcoWar",
+        "expansion": "am/ah",
+        "text": "每有１支位于<东海>的日本海军或空军，你获得１VP。苏联须弃置其摸牌堆上的１张牌。"
+    },
+    {
+        "country": "JP",
+        "title": "皖南事变",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时触发：移除１支中国陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "伪满洲国军",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时触发：在<中国东部>征召陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "泰国",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时触发：在<东南亚>征召陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "海军空降部队",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "当你建设海军时触发：在与该海军的相邻地区发起１至２次陆战。"
+    },
+    {
+        "country": "JP",
+        "title": "潜艇支援",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "当你建设海军时触发：在与该海军的相邻海域发起１至２次海战。"
+    },
+    {
+        "country": "JP",
+        "title": "卢沟桥事变",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时触发：在<中国东部>或与之相邻的地区发动陆战。"
+    },
+    {
+        "country": "JP",
+        "title": "为印度民族主义者提供军事援助",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "当你在<印度>发动陆战后触发：在<印度>建设陆军。"
+    },
+    {
+        "country": "JP",
+        "title": "舰队决战",
+        "type": "Resp",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时使用：发起１次海战。"
     },
     {
         "country": "JP",
