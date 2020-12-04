@@ -171,9 +171,150 @@
     },
     {
         "country": "GR",
-        "title": "",
+        "title": "轰炸伦敦",
         "type": "Bolster",
         "expansion": "am/ah",
-        "text": ""
+        "text": "当你使用【经济战卡】时使用：距离<不列颠群岛>２地区内每有１支德国空军，英国额外弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "战术革新",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时使用：弃置１张生效中的德国【状态卡】，使用１张手牌中的【状态卡】。"
+    },
+    {
+        "country": "GR",
+        "title": "威瑟演习作战",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "在你的计分阶段开始时使用：弃置你牌堆顶的１张牌，在<斯堪的纳维亚>征召陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "Ju-87 俯冲轰炸机",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "当你部署或调度空军时使用：弃置你牌堆顶的１张牌，在该空军相邻地区发动陆战。"
+    },
+    {
+        "country": "GR",
+        "title": "Ju-52 的航空补给",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时使用：若版图上有德国空军，则本回合中所有德国部队处于补给状态。"
+    },
+    {
+        "country": "GR",
+        "title": "G7e 鱼雷",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "当你使用带有【潜艇】字样的【经济战卡】时使用：弃置你牌堆顶的１张牌，发起１次海战。"
+    },
+    {
+        "country": "GR",
+        "title": "伞兵",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时使用：弃置你牌堆顶的１张牌，在与你空军相邻的地区发起１次陆战。"
+    },
+    {
+        "country": "GR",
+        "title": "云量",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "在你的出牌阶段开始时使用：本回合中不能使用空军进行防御。"
+    },
+    {
+        "country": "GR",
+        "title": "施佩伯爵将军号装甲舰",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "当你建设海军时使用：弃置你牌堆顶的１张牌，在<北海>或<北大西洋>或<中大西洋>发起海战。"
+    },
+    {
+        "country": "GR",
+        "title": "FlaK-40型128毫米高射炮",
+        "type": "Bolster",
+        "expansion": "am/ah",
+        "text": "当同盟国夺取制空权将意大利空军移除时使用：消灭同盟国使用的空军。"
+    },
+    {
+        "country": "GR",
+        "title": "电动潜艇",
+        "type": "EcoWar",
+        "expansion": "am/ah",
+        "text": "你选择１个同盟国，其须弃置牌堆顶的１张牌。德国获得２VP。"
+    },
+    {
+        "country": "GR",
+        "title": "强占阿尔汉格尔斯克",
+        "type": "EcoWar",
+        "expansion": "am/ah",
+        "text": "若<斯堪的纳维亚>和<罗斯地区>都有轴心国的陆军，苏联须弃置其牌堆顶的５张牌。德国获得１VP。"
+    },
+    {
+        "country": "GR",
+        "title": "土耳其加入轴心国",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "在<黑海>建设海军，在<中东>征召陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "瑞典支援芬兰",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "若<罗斯地区>有德国或苏联的陆军，德国在<波罗的海>建设海军，在<斯堪的纳维亚>征召陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "战略计划",
+        "type": "Event",
+        "expansion": "am/ah",
+        "meme": "贵在闪电",
+        "text": "从摸牌堆任选至多２张牌置入手牌，弃置１张手牌，重洗摸牌堆。"
+    },
+    {
+        "country": "GR",
+        "title": "海狮计划",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "在<北海>建设海军，对英国发起１次战斗。"
+    },
+    {
+        "country": "GR",
+        "title": "生产构思",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "从摸牌堆任选１张【状态卡】并使用之。重洗摸牌堆。"
+    },
+    {
+        "country": "GR",
+        "title": "白色方案",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "弃置牌堆顶的１张牌，在<东欧>征召陆军。使用１张手牌。"
+    },
+    {
+        "country": "GR",
+        "title": "阿登战役",
+        "type": "Event",
+        "expansion": "am/ah",
+        "text": "在<西欧>发动战斗，在<西欧>建设陆军。"
+    },
+    {
+        "country": "GR",
+        "title": "齐格菲防线",
+        "type": "Status",
+        "expansion": "am/ah",
+        "text": "当<日耳曼>的轴心国陆军被发动战斗时：发动战斗的国家须弃置其牌堆顶的３张牌。"
+    },
+    {
+        "country": "GR",
+        "title": "陆地巡航者",
+        "type": "Status",
+        "expansion": "am/ah",
+        "text": "当德国陆军被发动战斗时：发动战斗的国家须弃置其牌堆顶的２张牌。"
     }
 ]
