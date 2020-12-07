@@ -96,12 +96,12 @@ def generate_ver_base():
 
 
 def generate_ver_amah():
-    splice_images("UK", {"BA": 5, "LB": 4, "BN": 6, "SB": 5, "DAF": 4})
-    splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4, "DAF": 6})
-    splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "DAF": 3})
-    splice_images("GR", {"BA": 6, "LB": 8, "BN": 2, "SB": 2, "DAF": 5})
-    splice_images("ITA", {"BA": 4, "LB": 5, "BN": 4, "SB": 2, "DAF": 3})
-    splice_images("JP", {"BA": 4, "LB": 3, "BN": 7, "SB": 4, "DAF": 5})
+    splice_images("UK", {"BA": 5, "LB": 4, "BN": 6, "SB": 5, "AP": 4})
+    splice_images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4, "AP": 6})
+    splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "AP": 3})
+    splice_images("GR", {"BA": 6, "LB": 8, "BN": 2, "SB": 2, "AP": 5})
+    splice_images("ITA", {"BA": 4, "LB": 5, "BN": 4, "SB": 2, "AP": 3})
+    splice_images("JP", {"BA": 4, "LB": 3, "BN": 7, "SB": 4, "AP": 5})
 
 
-splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "DAF": 3})
+splice_images("USSR", {"BA": 9, "LB": 7, "BN": 1, "SB": 2, "AP": 3})
