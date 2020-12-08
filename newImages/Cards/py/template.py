@@ -1,4 +1,4 @@
-from PIL import ImageDraw, Image
+from PIL import Image
 
 
 def set_template(country, type):
