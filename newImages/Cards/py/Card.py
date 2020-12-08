@@ -2,6 +2,6 @@ class Card:
     title = ""
     country = ""
     type = ""
-    expansion = ""
+    dlc = ""
     text = ""
     meme = ""

@@ -89,12 +89,13 @@ def images(country, base_basic_cards, ex_basic_cards):
             card = Card.Card()
             card.__dict__ = card_dict
 
-            if card.expansion == "base":
+            if card.dlc == "base":
                 cards_base.append(draw_card(card))
-            elif card.expansion == "am/ah":
+            elif card.dlc == "am/ah":
                 cards_ex.append(draw_card(card))
-            elif card.expansion == "base-substituted":
+            elif card.dlc == "base-substituted":
                 pass
+
         splice_list(cards_base, "base", country)
         splice_list(cards_ex, "amah", country)
 
