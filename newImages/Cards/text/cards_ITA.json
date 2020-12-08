@@ -74,80 +74,80 @@
     },{
         "country": "ITA",
         "title": "反共情绪",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：每有一支位于<罗斯地区><乌克兰>的意大利陆军，获得１VP。"
     },{
         "country": "ITA",
         "title": "巴尔干资源",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：若<巴尔干>有意大利陆军，获得１VP。"
     },{
         "country": "ITA",
         "title": "布拉瓦多",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的出牌阶段：你可放弃出牌并弃置２张牌堆顶的牌，发动一次陆战。"
     },{
         "country": "ITA",
         "title": "意大利殖民地帝国",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：每有一支位于<非洲北部><非洲南部><中东>的轴心国陆军，获得１VP。"
     },{
         "country": "ITA",
         "title": "海王",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：每有一支在版图上的意大利海军，获得１VP。"
     },
     {
         "country": "ITA",
         "title": "波尔多潜艇基地",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当德国使用带有【潜艇】字样的【经济战卡】时使用：该【经济战卡】的目标须额外弃置其牌堆顶的３张牌。"
     },
     {
         "country": "ITA",
         "title": "黄金广场政变",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段开始时使用：在<中东>征召陆军。"
     },
     {
         "country": "ITA",
         "title": "意大利尽早完成航母",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的出牌阶段开始时使用：弃置１张手牌，在１支意大利海军位于的海域部署或调度空军。"
     },
     {
         "country": "ITA",
         "title": "钢铁条约",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在任意时机使用：德国弃置０至５张手牌。意大利随机地将相同数量的牌从弃牌堆置于牌堆顶。"
     },
     {
         "country": "ITA",
         "title": "意大利皇家空军",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你成为【经济战卡】的目标时使用：从版图上移除１支意大利空军，不执行弃牌。"
     },
     {
         "country": "ITA",
         "title": "意大利皇家海军总部",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段使用：版图上每有１支意大利海军，获得１VP。"
     },
     {
         "country": "ITA",
         "title": "索马里兰",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段使用：在<非洲南部>征召陆军。"
     },
@@ -218,21 +218,21 @@
     {
         "country": "ITA",
         "title": "尚未收复的意大利",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "在你的计分阶段：若<西欧>有意大利陆军，获得１VP。"
     },
     {
         "country": "ITA",
         "title": "西班牙控制直布罗陀海峡",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "<北海>和<地中海>对于同盟国不相邻，对于轴心国仍然相邻。"
     },
     {
         "country": "ITA",
         "title": "土耳其开放海峡",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "meme": "罗马人的君堡",
         "text": "对于轴心国，<中东>与<巴尔干>相邻，<黑海>与<地中海>相邻。"

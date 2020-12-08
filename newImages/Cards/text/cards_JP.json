@@ -95,42 +95,42 @@
     {
         "country": "JP",
         "title": "前进基地",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：若<夏威夷><太平洋西北地区><新西兰>有日本陆军，获得２VP。"
     },
     {
         "country": "JP",
         "title": "大东亚共荣圈",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：每有一支位于<印度尼西亚><新几内亚><东南亚>的日本陆军，获得１VP。"
     },
     {
         "country": "JP",
         "title": "帝国之野望",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：若<硫磺岛><菲律宾>有日本陆军，获得１VP。"
     },
     {
         "country": "JP",
         "title": "商船安全运输",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：若<夏威夷>没有同盟国的陆军，日本获得１VP。"
     },
     {
         "country": "JP",
         "title": "秋水火箭战斗机",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的弃牌阶段开始时使用：移除１支邻接日本空军的同盟国空军。"
     },
     {
         "country": "JP",
         "title": "大日本帝国海军",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "meme": "好！很有精神！",
         "text": "当你建设海军时使用：从手牌中弃置１张【响应卡】，额外建设１支海军。"
@@ -138,42 +138,42 @@
     {
         "country": "JP",
         "title": "武士道",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你的陆军被发起陆战时使用：从手牌中弃置１张【响应卡】，此战斗中该陆军不会被移除。"
     },
     {
         "country": "JP",
         "title": "诸岛要塞",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段开始时使用：从手牌中弃置１张【响应卡】，在<印度尼西亚><新几内亚><硫磺岛><菲律宾>其中之一征召陆军。"
     },
     {
         "country": "JP",
         "title": "南云忠一指挥第一航空舰队",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你在海域部署或调度空军时使用：从手牌中弃置１张【响应卡】，在与该空军相邻的１个区域发动战斗。"
     },
     {
         "country": "JP",
         "title": "太平洋帝国",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段使用：每有１支位于任意<太平洋>海域的日本海军，获得１VP。"
     },
     {
         "country": "JP",
         "title": "虎！虎！虎！",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你在<中太平洋>或与之相邻的地区夺取制空权时使用：从手牌中弃置１张【响应卡】，在该地区发动战斗。"
     },
     {
         "country": "JP",
         "title": "山本五十六指挥大和号",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的出牌阶段开始时使用：从手牌中弃置１张【响应卡】，在处于补给状态的日本海军位于的海域部署空军。"
     },
@@ -257,21 +257,21 @@
     {
         "country": "JP",
         "title": "绝对国防领域",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "在你的计分阶段：若版图上有至少３支日本海军，获得１VP。"
     },
     {
         "country": "JP",
         "title": "",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": ""
     },
     {
         "country": "JP",
         "title": "",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": ""
     }

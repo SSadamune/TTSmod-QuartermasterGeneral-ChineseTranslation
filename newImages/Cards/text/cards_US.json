@@ -107,126 +107,126 @@
     {
         "country": "US",
         "title": "航空母舰",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，当你发起海战时：你可弃置牌堆顶的１张牌，在战斗地区建设海军。"
     },
     {
         "country": "US",
         "title": "飞虎队扩编",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base-substituted",
         "text": "<中国西部>的同盟国陆军总是处于补给状态。你的出牌阶段：你可放弃出牌并弃置牌堆顶的２张牌，在<中国西部>征召陆军。"
     },
     {
         "country": "US",
         "title": "登陆作战",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，当你发起陆战时：若战斗地区邻接处于补给状态的美国海军，你可弃置牌堆顶的１张牌，在该地区建设陆军。"
     },
     {
         "country": "US",
         "title": "空中堡垒",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "当你使用【经济战卡】时：轴心国须弃置的卡牌数增加２张。"
     },
     {
         "country": "US",
         "title": "雷达",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，当处于补给状态的美国海军被攻击时：你可弃置牌堆顶的２张牌，被攻击的海军不会被移除。"
     },
     {
         "country": "US",
         "title": "铆钉女工",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，在你的弃牌阶段开始时：你可将１至２张手牌置于牌堆底。"
     },
     {
         "country": "US",
         "title": "先进造船厂",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，当你建设海军时：你可弃置牌堆顶的１张牌，额外建设一支海军。"
     },
     {
         "country": "US",
         "title": "战时生产",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "每回合限一次，当你建设陆军时：你可弃置牌堆顶的１张牌，额外建设一支陆军。"
     },
     {
         "country": "US",
         "title": "沉睡的巨人",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你在任意<太平洋>海域建设海军时使用：你弃置牌堆顶的１张牌，在该海军的相邻地区建设１支海军或陆军。"
     },
     {
         "country": "US",
         "title": "纳瓦霍族加密通讯员",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的出牌阶段开始时使用：将１张【增强卡】暗置于桌面上。此卡可同【响应卡】一般使用。"
     },
     {
         "country": "US",
         "title": "我们的政治哲学",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的弃牌阶段开始时使用：你弃置牌堆顶的２张牌，英国从其弃牌堆选取１张【响应卡】并暗置。"
     },
     {
         "country": "US",
         "title": "P-51 野马式战斗机",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你使用【经济战卡】时使用：距离目标国家的大本营２地区内，每有１支美国空军，其额外弃置牌堆顶的１张牌。"
     },
     {
         "country": "US",
         "title": "太平洋基地",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段开始时使用：你弃置牌堆顶的１张牌，在<中太平洋>的相邻地区征召陆军。"
     },
     {
         "country": "US",
         "title": "美国陆军游骑兵",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你部署或调度空军时使用：你弃置牌堆顶的１张牌，移除１支邻接于该空军的陆军。"
     },
     {
         "country": "US",
         "title": "地毯式轰炸",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "当你发动战斗时使用：你可弃置１张【经济战卡】，在相同的区域再次发动战斗。"
     },
     {
         "country": "US",
         "title": "飞虎队",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的空军阶段开始时使用：你可部署１支中国空军，或使中国空军夺取制空权。"
     },
     {
         "country": "US",
         "title": "王牌飞行员帕皮•博因顿",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的计分阶段开始时使用：你弃置牌堆顶的１张牌，在<中太平洋>或其相邻地区部署１支空军。"
     },
     {
         "country": "US",
         "title": "伦敦上空的鹰",
-        "type": "Bolster",
+        "type": "Blst",
         "expansion": "am/ah",
         "text": "在你的空军阶段开始时使用：英国部署１支空军。"
     },
@@ -303,49 +303,49 @@
     {
         "country": "US",
         "title": "美籍志愿大队扩编",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "<中国西部>的同盟国陆军总是处于补给状态。你的出牌阶段：你可放弃出牌，在<中国西部>征召中国陆军。"
     }, 
     {
         "country": "US",
         "title": "胜利花园",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "当你执行[资源再分配]时：只须弃置１张手牌。"
     },
     {
         "country": "US",
         "title": "战时国债",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "当你执行[资源再分配]时：你可改为从弃牌堆拿取基本牌"
     },
     {
         "country": "US",
         "title": "抗日义勇军",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "每当建设或征召中国陆军，或中国陆军被发动战斗时：日本须弃置１张手牌。"
     },
     {
         "country": "US",
         "title": "人工港",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "每回合限１次，当你建设海军时：你可弃置牌堆顶的１张牌，邻接此海军建设１支陆军。"
     },
     {
         "country": "US",
         "title": "盟军远征部队最高司令部",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "法国、美国、英国的部队彼此共享补给线。"
     },
     {
         "country": "US",
         "title": "美国海军陆战队",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "am/ah",
         "text": "当你在任意<太平洋>海域建设海军时：你可弃置牌堆顶的１张牌，邻接此海军发起１次陆战。"
     }

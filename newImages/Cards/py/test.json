@@ -17,14 +17,14 @@
         "country": "UK",
         "title": "自由法国",
         "meme": "戴高乐领导法国",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的出牌阶段：你可放弃出牌并弃置２张手牌，在<西欧>建设陆军。"
     },
     {
         "country": "UK",
         "title": "麦肯锡国王起草国家资源动员法",
-        "type": "Status",
+        "type": "Stat",
         "expansion": "base",
         "text": "在你的计分阶段：若在<北大西洋>有英国海军，你获得１VP；若在<加拿大>有英国陆军，你获得１VP。"
     }
