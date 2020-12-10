@@ -13,7 +13,7 @@ def set_template(country, type):
     card.paste(type_image, (0, 99))
     text = Image.open("../resources/template/" + type + "_text.png")
     text_x = (card_width - text.width) // 2
-    text_y = 27 if is_base else 148 - text.height
+    text_y = 42 if is_base else 148 - text.height
     card.paste(text, (text_x, text_y), text)
     if not is_base:
         card.paste(Image.open("../resources/template/textblock.png"),
