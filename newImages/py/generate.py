@@ -29,28 +29,24 @@ def draw_card(card):
     font_meme = ImageFont.truetype(fontpath_medium, 19)
 
     # draw
-    init_x, init_y, pad = 30, 340, 0
+    init_x, init_y, end_x, end_y, pad = 30, 340, 355, 485, 0
 
     title_w, title_h = draw.textsize(card.title, font=font_title)
     draw.text((init_x, init_y), card.title, font=font_title, fill=(0, 0, 0))
 
     current_y = init_y + title_h + pad + 2
     for line in text_list:
-        line_w, text_h = draw.textsize(line, font=font_text)
+        text_w, text_h = draw.textsize(line, font=font_text)
         draw.text((init_x, current_y), line, font=font_text, fill=(0, 0, 0))
         current_y += text_h + pad
 
     if (card.meme):
         meme_w, meme_h = draw.textsize(card.meme, font=font_meme)
-        meme_x, meme_y = init_x + title_w + 10, init_y + title_h - meme_h
+        meme_x, meme_y = end_x - meme_w, end_y - meme_h
         draw.text((meme_x, meme_y),
                   card.meme,
                   font=font_meme,
                   fill=(127, 127, 127))
-        line_y = init_y + 5 + meme_h / 2
-        draw.line((meme_x, line_y, meme_x + meme_w, line_y),
-                  fill=(127, 127, 127),
-                  width=2)
 
     return img_pil
 
