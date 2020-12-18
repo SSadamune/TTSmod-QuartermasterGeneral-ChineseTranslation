@@ -13,6 +13,17 @@ class Card:
     meme = ""
 
 
+class Country:
+    name = ""
+    base_basic_cards = {}
+    ex_basic_cards = {}
+
+    def __init__(self, name, base_basic_cards, ex_basic_cards):
+        self.name = name
+        self.base_basic_cards = base_basic_cards
+        self.ex_basic_cards = ex_basic_cards
+
+
 def draw_card(card):
     text_list = TextWrapper.fw_wrap(card.text, 51)
 
@@ -70,21 +81,23 @@ def splice_list(cards_list, list_name, country):
     return spliced_base
 
 
-def images(country, base_basic_cards, ex_basic_cards):
-    with open("../text/cards_" + country + ".json") as cards_info:
+def generate(country):
+    with open("../text/cards_" + country.name + ".json") as cards_info:
         cards_base = []
         cards_ex = []
         width, height = 384, 512
 
         # append basic cards
-        for (type, num) in base_basic_cards.items():
-            bc_img = Image.open("../Cards/template/" + type + "_" + country +
-                                ".png").resize((width, height), Image.BILINEAR)
+        for (type, num) in country.base_basic_cards.items():
+            bc_img = Image.open("../Cards/template/" + type + "_" +
+                                country.name + ".png").resize((width, height),
+                                                              Image.BILINEAR)
             for i in range(num):
                 cards_base.append(bc_img)
-        for (type, num) in ex_basic_cards.items():
-            bc_img = Image.open("../Cards/template/" + type + "_" + country +
-                                ".png").resize((width, height), Image.BILINEAR)
+        for (type, num) in country.ex_basic_cards.items():
+            bc_img = Image.open("../Cards/template/" + type + "_" +
+                                country.name + ".png").resize((width, height),
+                                                              Image.BILINEAR)
             for i in range(num):
                 cards_ex.append(bc_img)
 
@@ -101,35 +114,36 @@ def images(country, base_basic_cards, ex_basic_cards):
             elif card.dlc == "base-substituted":
                 pass
 
-        splice_list(cards_base, "base", country)
-        splice_list(cards_ex, "amah", country)
+        splice_list(cards_base, "base", country.name)
+        splice_list(cards_ex, "amah", country.name)
 
 
-def generate_all():
-    images("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5}, {"BN": 1, "AP": 4})
-    images("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4}, {"AP": 6})
-    images("USSR", {
-        "BA": 8,
-        "LB": 6,
-        "BN": 1,
-        "SB": 2
-    }, {
-        "BA": 1,
-        "LB": 1,
-        "AP": 3
-    })
-    images("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2}, {"LB": 1, "AP": 5})
-    images("ITA", {
-        "BA": 4,
-        "LB": 4,
-        "BN": 3,
-        "SB": 2
-    }, {
-        "LB": 1,
-        "BN": 1,
-        "AP": 3
-    })
-    images("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4}, {"BN": 1, "AP": 5})
+uk = Country("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5}, {"BN": 1, "AP": 4})
+us = Country("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4}, {"AP": 6})
+ussr = Country("USSR", {
+    "BA": 8,
+    "LB": 6,
+    "BN": 1,
+    "SB": 2
+}, {
+    "BA": 1,
+    "LB": 1,
+    "AP": 3
+})
+gr = Country("GR", {"BA": 6, "LB": 7, "BN": 2, "SB": 2}, {"LB": 1, "AP": 5})
+ita = Country("ITA", {
+    "BA": 4,
+    "LB": 4,
+    "BN": 3,
+    "SB": 2
+}, {
+    "LB": 1,
+    "BN": 1,
+    "AP": 3
+})
+jp = Country("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4}, {"BN": 1, "AP": 5})
+all_countries = [uk, us, ussr, gr, ita, jp]
 
-
-generate_all()
+# generate(ussr)
+for c in all_countries:
+    generate(c)
