@@ -1,0 +1,10 @@
+recurit 征召
+build 建设
+remove 移除
+estimate 消灭
+
+响应卡：当…时触发
+状态卡：当…时发动
+
+发起陆战
+发起海战

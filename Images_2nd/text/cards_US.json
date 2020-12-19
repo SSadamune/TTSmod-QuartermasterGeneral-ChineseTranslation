@@ -1,0 +1,355 @@
+[
+    {
+        "country": "US",
+        "title": "B-24 解放者",
+        "type": "EcoWar",
+        "dlc": "base",
+        "text": "若距离<意大利>两个地区以内存在美国陆军，意大利须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "B-26 掠夺者",
+        "type": "EcoWar",
+        "dlc": "base",
+        "text": "若距离某轴心国的大本营三个地区以内存在美国陆军，该轴心国须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "B-29 超级堡垒",
+        "type": "EcoWar",
+        "dlc": "base",
+        "text": "若距离<日耳曼>三个地区以内存在美国陆军，德国须弃置牌堆顶的５张牌。"
+    },
+    {
+        "country": "US",
+        "title": "燃烧弹轰炸",
+        "type": "EcoWar",
+        "dlc": "base",
+        "text": "若距离某轴心国的大本营一个地区以内存在美国陆军或海军，该轴心国须弃置牌堆顶的７张牌。"
+    },
+    {
+        "country": "US",
+        "title": "SBD 无畏式俯冲轰炸机",
+        "type": "EcoWar",
+        "dlc": "base",
+        "text": "若距离<日本>两个地区以内存在美国海军，日本须弃置牌堆顶的４张牌。"
+    },
+    {
+        "country": "US",
+        "title": "民主兵工厂",
+        "type": "Event",
+        "dlc": "base",
+        "text": "英国可按任意顺序建设１支陆军和１支海军。"
+    },
+    {
+        "country": "US",
+        "title": "珍珠港部署舰队",
+        "type": "Event",
+        "dlc": "base",
+        "meme": "大意了啊",
+        "text": "在<夏威夷>征召陆军；在<夏威夷>的相邻海域建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "广阔的资源",
+        "type": "Event",
+        "dlc": "base",
+        "text": "使用弃牌堆中的１张牌。"
+    },
+    {
+        "country": "US",
+        "title": "自由法国同盟",
+        "type": "Event",
+        "dlc": "base",
+        "substituted": "am/ah",
+        "text": "英国可在<西欧><非洲北部><非洲南部>其中之一征召陆军。"
+    },
+    {
+        "country": "US",
+        "title": "瓜达尔卡纳尔岛",
+        "type": "Event",
+        "dlc": "base",
+        "text": "在<新西兰>征召陆军；在<新西兰>的相邻海域建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "武器援助",
+        "type": "Event",
+        "dlc": "base",
+        "text": "选择苏联或英国，其可使用１张手牌，并摸１张牌。"
+    },
+    {
+        "country": "US",
+        "title": "摩尔曼斯克运输船队",
+        "type": "Event",
+        "dlc": "base",
+        "text": "在<罗斯地区>征召苏联陆军；苏联可建设１支陆军。"
+    },
+    {
+        "country": "US",
+        "title": "代号：Magic",
+        "type": "Event",
+        "dlc": "base",
+        "text": "从桌面弃置１张日本的【响应卡】。（不公开此卡的内容）"
+    },
+    {
+        "country": "US",
+        "title": "进击的巴顿",
+        "type": "Event",
+        "dlc": "base",
+        "text": "在<西欧>建设陆军。在<日耳曼>或<意大利>发起陆战。"
+    },
+    {
+        "country": "US",
+        "title": "战区移动",
+        "type": "Event",
+        "dlc": "base",
+        "text": "收回版图上的所有美国陆军，然后依次重新建设这些陆军。"
+    },
+    {
+        "country": "US",
+        "title": "航空母舰",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，当你发起海战时：你可弃置牌堆顶的１张牌，在战斗地区建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "飞虎队扩编",
+        "type": "Stat",
+        "dlc": "base",
+        "substituted": "am/ah",
+        "text": "<中国西部>的同盟国陆军总是处于补给状态。你的出牌阶段：你可[放弃使用手牌]并弃置牌堆顶的２张牌，在<中国西部>征召陆军。"
+    },
+    {
+        "country": "US",
+        "title": "登陆作战",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，当你发起陆战时：若战斗地区邻接处于补给状态的美国海军，你可弃置牌堆顶的１张牌，在该地区建设陆军。"
+    },
+    {
+        "country": "US",
+        "title": "空中堡垒",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "当你使用【经济战卡】时：目标须弃置的卡牌数增加２张。"
+    },
+    {
+        "country": "US",
+        "title": "雷达",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，当处于补给状态的美国海军被攻击时：你可弃置牌堆顶的２张牌，被攻击的海军不会被移除。"
+    },
+    {
+        "country": "US",
+        "title": "铆钉女工",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，在你的弃牌阶段开始时：你可将１至２张手牌置于牌堆底。"
+    },
+    {
+        "country": "US",
+        "title": "先进造船厂",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，当你建设海军时：你可弃置牌堆顶的１张牌，额外建设一支海军。"
+    },
+    {
+        "country": "US",
+        "title": "战时生产",
+        "type": "Stat",
+        "dlc": "base",
+        "text": "每回合限一次，当你建设陆军时：你可弃置牌堆顶的１张牌，额外建设一支陆军。"
+    },
+    {
+        "country": "US",
+        "title": "沉睡的巨人",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "当你在任意<太平洋>海域建设海军时使用：你弃置牌堆顶的１张牌，在该海军的相邻地区建设１支海军或陆军。"
+    },
+    {
+        "country": "US",
+        "title": "纳瓦霍族加密通讯员",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的出牌阶段开始时使用：将１张【增强卡】暗置于桌面上。此卡可同【响应卡】一般使用。"
+    },
+    {
+        "country": "US",
+        "title": "我们的政治哲学",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的弃牌阶段开始时使用：你弃置牌堆顶的２张牌，英国从其弃牌堆选取１张【响应卡】并暗置。"
+    },
+    {
+        "country": "US",
+        "title": "P-51 野马式战斗机",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "当你使用【经济战卡】时使用：距离目标国家的大本营２地区内，每有１支美国空军，其额外弃置牌堆顶的１张牌。"
+    },
+    {
+        "country": "US",
+        "title": "太平洋基地",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的计分阶段开始时使用：你弃置牌堆顶的１张牌，在<中太平洋>的相邻地区征召陆军。"
+    },
+    {
+        "country": "US",
+        "title": "美国陆军游骑兵",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "当你部署或调度空军时使用：你弃置牌堆顶的１张牌，移除１支邻接于该空军的陆军。"
+    },
+    {
+        "country": "US",
+        "title": "地毯式轰炸",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "当你发动战斗时使用：你可弃置１张【经济战卡】，在相同的区域再次发动战斗。"
+    },
+    {
+        "country": "US",
+        "title": "飞虎队",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的空军阶段开始时使用：你可部署１支中国空军，或使中国空军夺取制空权。"
+    },
+    {
+        "country": "US",
+        "title": "王牌飞行员帕皮•博因顿",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的计分阶段开始时使用：你弃置牌堆顶的１张牌，在<中太平洋>或其相邻地区部署１支空军。"
+    },
+    {
+        "country": "US",
+        "title": "伦敦上空的鹰",
+        "type": "Blst",
+        "dlc": "am/ah",
+        "text": "在你的空军阶段开始时使用：英国部署１支空军。"
+    },
+    {
+        "country": "US",
+        "title": "滇缅公路",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "若<东南亚>有同盟国陆军，则在<中国东部>或<中国西部>征召１支中国陆军，或在<中国东部>或<中国西部>移除１支轴心国陆军。"
+    },
+    {
+        "country": "US",
+        "title": "现购自运政策取代《美国中立法》",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "在任意的同盟国大本营或其相邻地区，征召该同盟国的海军或陆军。"
+    },
+    {
+        "country": "US",
+        "title": "美国人民同情中国",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "建设１支中国陆军。"
+    },
+    {
+        "country": "US",
+        "title": "百团大战",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "以中国军队发起陆战。"
+    },
+    {
+        "country": "US",
+        "title": "巴西远征军",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "在<拉丁美洲>建设陆军，在<中大西洋>或<南大西洋>建设海军。"
+    },
+    {
+        "country": "US",
+        "title": "揍一顿再谈判",
+        "type": "Event",
+        "dlc": "am/ah",
+        "text": "在任意<太平洋>海域建设１支海军，在该海军的相邻地区发起１次海战。"
+    },
+    {
+        "country": "US",
+        "title": "抗日战争僵持阶段",
+        "type": "EcoWar",
+        "dlc": "am/ah",
+        "text": "每有１支中国陆军或空军，日本须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "US",
+        "title": "潜艇 切断日本运输线",
+        "type": "EcoWar",
+        "dlc": "am/ah",
+        "text": "距离<日本>２个区域内每有１支美国海军，日本须弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "US",
+        "title": "石油禁运",
+        "type": "EcoWar",
+        "dlc": "am/ah",
+        "text": "德国、意大利、日本须各自移除１支部队，或弃置其牌堆顶的２张牌。"
+    },
+    {
+        "country": "US",
+        "title": "轰炸东京",
+        "type": "EcoWar",
+        "dlc": "am/ah",
+        "text": "若距离<日本>３个区域内有处于补给状态的美国海军，日本须弃置其牌堆顶的１张牌。美国获得３VP。"
+    },
+    {
+        "country": "US",
+        "title": "美籍志愿大队扩编",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "<中国西部>的同盟国陆军总是处于补给状态。你的出牌阶段：你可[放弃使用手牌]，在<中国西部>征召中国陆军。"
+    }, 
+    {
+        "country": "US",
+        "title": "胜利花园",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "当你执行[资源再分配]时：你只须弃置１张手牌。"
+    },
+    {
+        "country": "US",
+        "title": "战时国债",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "当你执行[资源再分配]时：你可改为从弃牌堆拿取基本卡"
+    },
+    {
+        "country": "US",
+        "title": "抗日义勇军",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "每当建设或征召中国陆军，或中国陆军被发动战斗时：日本须弃置１张手牌。"
+    },
+    {
+        "country": "US",
+        "title": "人工港",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "每回合限１次，当你建设海军时：你可弃置牌堆顶的１张牌，邻接此海军建设１支陆军。"
+    },
+    {
+        "country": "US",
+        "title": "盟军远征部队最高司令部",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "法国、美国、英国的部队彼此共享补给线。"
+    },
+    {
+        "country": "US",
+        "title": "美国海军陆战队",
+        "type": "Stat",
+        "dlc": "am/ah",
+        "text": "当你在任意<太平洋>海域建设海军时：你可弃置牌堆顶的１张牌，邻接此海军发起１次陆战。"
+    }
+]
