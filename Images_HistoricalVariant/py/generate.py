@@ -10,7 +10,7 @@ class Card:
     type = ""
     dlc = ""
     text = ""
-    meme = ""
+    sub_text = ""
     substituted = ""
 
 
@@ -38,7 +38,7 @@ def draw_card(card):
     fontpath_medium = "../resources/SourceHanMonoSC-Medium.otf"
     font_title = ImageFont.truetype(fontpath_bold, 21)
     font_text = ImageFont.truetype(fontpath_medium, 19)
-    font_meme = ImageFont.truetype(fontpath_medium, 19)
+    font_sub_text = ImageFont.truetype(fontpath_medium, 19)
 
     # draw
     init_x, init_y, end_x, end_y, pad = 30, 340, 355, 485, 0
@@ -52,12 +52,12 @@ def draw_card(card):
         draw.text((init_x, current_y), line, font=font_text, fill=(0, 0, 0))
         current_y += text_h + pad
 
-    if (card.meme):
-        meme_w, meme_h = draw.textsize(card.meme, font=font_meme)
-        meme_x, meme_y = end_x - meme_w, end_y - meme_h
-        draw.text((meme_x, meme_y),
-                  card.meme,
-                  font=font_meme,
+    if (card.sub_text):
+        sub_text_w, sub_text_h = draw.textsize(card.sub_text, font=font_sub_text)
+        sub_text_x, sub_text_y = end_x - sub_text_w, end_y - sub_text_h
+        draw.text((sub_text_x, sub_text_y),
+                  card.sub_text,
+                  font=font_sub_text,
                   fill=(127, 127, 127))
 
     return img_pil
@@ -146,6 +146,6 @@ ita = Country("ITA", {
 jp = Country("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4}, {"BN": 1, "AP": 5})
 all_countries = [uk, us, ussr, gr, ita, jp]
 
-generate(gr)
-# for c in all_countries:
-#     generate(c)
+# generate(us)
+for c in all_countries:
+    generate(c)

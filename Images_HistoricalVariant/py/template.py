@@ -2,14 +2,13 @@ from PIL import Image
 
 
 def set_template(country, type):
-    faction = 'Allies' if country in ['US', 'USSR', 'UK'] else 'Axis'
     is_base = type in ['BA', 'BN', 'LB', 'SB', 'AP']
 
     card_width, card_height = 384, 512
     card = Image.open("../resources/template/background_" + country +
                       ".png")
-    type_image = Image.open("../resources/template/" + type + "_" +
-                            faction + ".png")
+    type_image = Image.open("../resources/template/" + country + "_" +
+                            type + ".png").resize((384, 314), Image.BILINEAR)
     card.paste(type_image, (0, 99))
     text = Image.open("../resources/template/" + type + "_text.png")
     text_x = (card_width - text.width) // 2

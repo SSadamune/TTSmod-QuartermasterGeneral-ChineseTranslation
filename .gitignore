@@ -1,4 +1,5 @@
 *.psd
 *.otf
+*.pdf
 ~$CARD.xlsx
 ~$FullCardList_with_variants.xlsx
