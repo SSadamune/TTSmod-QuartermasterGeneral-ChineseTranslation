@@ -7,7 +7,7 @@ def set_template(country, type):
     card_width, card_height = 384, 512
     card = Image.open("../resources/template/background_" + country +
                       ".png")
-    type_image = Image.open("../resources/template/" + country + "_" +
+    type_image = Image.open("../resources/template/pic/" + country + "_" +
                             type + ".png").resize((384, 314), Image.BILINEAR)
     card.paste(type_image, (0, 99))
     text = Image.open("../resources/template/" + type + "_text.png")

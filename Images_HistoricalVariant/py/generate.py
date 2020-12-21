@@ -38,10 +38,10 @@ def draw_card(card):
     fontpath_medium = "../resources/SourceHanMonoSC-Medium.otf"
     font_title = ImageFont.truetype(fontpath_bold, 21)
     font_text = ImageFont.truetype(fontpath_medium, 19)
-    font_sub_text = ImageFont.truetype(fontpath_medium, 19)
+    font_sub = ImageFont.truetype(fontpath_medium, 19)
 
     # draw
-    init_x, init_y, end_x, end_y, pad = 30, 340, 355, 485, 0
+    init_x, init_y, end_x, end_y, pad = 30, 340, 359, 487, 0
 
     title_w, title_h = draw.textsize(card.title, font=font_title)
     draw.text((init_x, init_y), card.title, font=font_title, fill=(0, 0, 0))
@@ -53,11 +53,11 @@ def draw_card(card):
         current_y += text_h + pad
 
     if (card.sub_text):
-        sub_text_w, sub_text_h = draw.textsize(card.sub_text, font=font_sub_text)
-        sub_text_x, sub_text_y = end_x - sub_text_w, end_y - sub_text_h
-        draw.text((sub_text_x, sub_text_y),
+        sub_w, sub_h = draw.textsize(card.sub_text, font=font_sub)
+        sub_x, sub_y = end_x - sub_w, end_y - sub_h
+        draw.text((sub_x, sub_y),
                   card.sub_text,
-                  font=font_sub_text,
+                  font=font_sub,
                   fill=(127, 127, 127))
 
     return img_pil
