@@ -71,7 +71,7 @@ def splice_list(cards_list, list_name, country):
         spliced_base.paste(image, box=(width * (i % 10), height * (i // 10)))
 
     # append card back
-    back_image = Image.open("../resources/back_" + country + ".png").resize(
+    back_image = Image.open("../resources/QMG_back_" + country + ".png").resize(
         (width, height), Image.BILINEAR)
     spliced_base.paste(back_image, box=(width * 9, height * 6))
 
