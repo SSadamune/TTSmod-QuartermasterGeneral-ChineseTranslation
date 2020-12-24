@@ -12,6 +12,7 @@ class Card:
     text = ""
     sub_text = ""
     substituted = ""
+    cn_fr = ""
 
 
 class Country:
