@@ -3,6 +3,8 @@ from PIL import ImageFont, ImageDraw, Image
 import json
 import TextWrapper
 
+template = "../Cards/template/"
+
 
 class Card:
     title = ""
@@ -29,9 +31,13 @@ class Country:
 def draw_card(card):
     text_list = TextWrapper.fw_wrap(card.text, 51)
 
-    img_pil = Image.open("../Cards/template/" + card.type + "_" +
-                         card.country + ".png").resize((384, 512),
-                                                       Image.BILINEAR)
+    if card.cn_fr:
+        img_pil = Image.open(template + card.type + "_" + card.country + "_" +
+                             card.cn_fr + ".png").resize((384, 512),
+                                                         Image.BILINEAR)
+    else:
+        img_pil = Image.open(template + card.type + "_" + card.country +
+                             ".png").resize((384, 512), Image.BILINEAR)
     draw = ImageDraw.Draw(img_pil)
 
     # font
@@ -72,8 +78,8 @@ def splice_list(cards_list, list_name, country):
         spliced_base.paste(image, box=(width * (i % 10), height * (i // 10)))
 
     # append card back
-    back_image = Image.open("../resources/QMG_back_" + country + ".png").resize(
-        (width, height), Image.BILINEAR)
+    back_image = Image.open("../resources/QMG_back_" + country +
+                            ".png").resize((width, height), Image.BILINEAR)
     spliced_base.paste(back_image, box=(width * 9, height * 6))
 
     # save file
@@ -91,16 +97,14 @@ def generate(country):
 
         # append basic cards
         for (type, num) in country.base_basic_cards.items():
-            bc_img = Image.open("../Cards/template/" + type + "_" +
-                                country.name + ".png").resize((width, height),
-                                                              Image.BILINEAR)
-            for i in range(num):
+            bc_img = Image.open(template + type + "_" + country.name +
+                                ".png").resize((width, height), Image.BILINEAR)
+            for _ in range(num):
                 cards_base.append(bc_img)
         for (type, num) in country.ex_basic_cards.items():
-            bc_img = Image.open("../Cards/template/" + type + "_" +
-                                country.name + ".png").resize((width, height),
-                                                              Image.BILINEAR)
-            for i in range(num):
+            bc_img = Image.open(template + type + "_" + country.name +
+                                ".png").resize((width, height), Image.BILINEAR)
+            for _ in range(num):
                 cards_ex.append(bc_img)
 
         # append special cards
@@ -109,13 +113,11 @@ def generate(country):
             card = Card()
             card.__dict__ = card_dict
 
-            if card.substituted == "":
+            if not card.substituted:
                 if card.dlc == "base":
                     cards_base.append(draw_card(card))
                 elif card.dlc == "am/ah":
                     cards_ex.append(draw_card(card))
-                elif card.dlc == "base-substituted":
-                    pass
 
         splice_list(cards_base, "base", country.name)
         splice_list(cards_ex, "amah", country.name)
