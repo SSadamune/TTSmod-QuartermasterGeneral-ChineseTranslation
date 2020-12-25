@@ -44,7 +44,9 @@ type_list = [
 # for country in country_list:
 #     for type in type_list:
 #         set_template(country, type)
-for type in ['Stat', 'Event', 'EcoWar', 'Resp', 'Blst']:
+for type in ['Stat', 'Event', 'Blst']:
     set_ah_template('CN', 'USSR', type)
+for type in ['Stat', 'Event', 'EcoWar', 'Blst']:
     set_ah_template('CN', 'US', type)
+for type in ['Stat', 'Event', 'Resp', 'Blst']:
     set_ah_template('FR', 'UK', type)
