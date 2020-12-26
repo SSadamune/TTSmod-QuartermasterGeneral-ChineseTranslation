@@ -149,6 +149,6 @@ ita = Country("ITA", {
 jp = Country("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4}, {"BN": 1, "AP": 5})
 all_countries = [uk, us, ussr, gr, ita, jp]
 
-# generate(us)
+# generate(ussr)
 for c in all_countries:
     generate(c)
