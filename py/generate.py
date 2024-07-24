@@ -2,20 +2,23 @@
 from PIL import ImageFont, ImageDraw, Image
 import json
 import TextWrapper
+import os
+import shutil
+import traceback
 
 template = "../Cards/template/"
 
-
 class Card:
-    title = ""
-    country = ""
-    type = ""
-    dlc = ""
-    text = ""
-    sub_text = ""
-    substituted = ""
-    cn_fr = ""
-
+    def __init__(self, title="", country="", type="", dlc="", text="", sub_text="", substituted=False, cn_fr="", meme=""):
+        self.title = title
+        self.country = country
+        self.type = type
+        self.dlc = dlc
+        self.text = text
+        self.sub_text = sub_text
+        self.substituted = substituted
+        self.cn_fr = cn_fr
+        self.meme = meme
 
 class Country:
     name = ""
@@ -26,46 +29,51 @@ class Country:
         self.name = name
         self.base_basic_cards = base_basic_cards
         self.ex_basic_cards = ex_basic_cards
+    
+def draw_card(card, scale=2):
+    text_list = TextWrapper.fw_wrap(card.text, 35)
+    original_width, original_height = 384, 512
+    new_width = original_width * scale
+    new_height = original_height * scale
 
+    try:
+        if card.cn_fr:
+            img_path = template + card.type + "_" + card.country + "_" + card.cn_fr + ".png"
+        else:
+            img_path = template + card.type + "_" + card.country + ".png"
 
-def draw_card(card):
-    text_list = TextWrapper.fw_wrap(card.text, 51)
+        img_pil = Image.open(img_path).resize((new_width, new_height), Image.BILINEAR)
+    except FileNotFoundError:
+        print(f"Error: File not found for card type: {card.type}, country: {card.country}")
+        return None
 
-    if card.cn_fr:
-        img_pil = Image.open(template + card.type + "_" + card.country + "_" +
-                             card.cn_fr + ".png").resize((384, 512),
-                                                         Image.BILINEAR)
-    else:
-        img_pil = Image.open(template + card.type + "_" + card.country +
-                             ".png").resize((384, 512), Image.BILINEAR)
     draw = ImageDraw.Draw(img_pil)
 
-    # font
-    fontpath_bold = "../resources/SourceHanMonoSC-Bold.otf"
-    fontpath_medium = "../resources/SourceHanMonoSC-Medium.otf"
-    font_title = ImageFont.truetype(fontpath_bold, 21)
-    font_text = ImageFont.truetype(fontpath_medium, 19)
-    font_sub = ImageFont.truetype(fontpath_medium, 19)
+    fontpath_bold = "../resources/msyhbd.ttc"
+    fontpath_medium = "../resources/msyh.ttc"
+    font_title = ImageFont.truetype(fontpath_bold, 21 * scale)
+    font_text = ImageFont.truetype(fontpath_medium, 19 * scale)
+    font_sub = ImageFont.truetype(fontpath_medium, 19 * scale)
 
-    # draw
-    init_x, init_y, end_x, end_y, pad = 30, 340, 359, 487, 0
+    init_x, init_y = 30 * scale, 340 * scale
+    end_x, end_y, pad = 359 * scale, 487 * scale, 5 * scale
 
-    title_w, title_h = draw.textsize(card.title, font=font_title)
+    title_bbox = draw.textbbox((0, 0), card.title, font=font_title)
+    title_w, title_h = title_bbox[2] - title_bbox[0], title_bbox[3] - title_bbox[1]
     draw.text((init_x, init_y), card.title, font=font_title, fill=(0, 0, 0))
 
-    current_y = init_y + title_h + pad + 2
+    current_y = init_y + title_h + pad + 2 * scale
     for line in text_list:
-        text_w, text_h = draw.textsize(line, font=font_text)
+        line_bbox = draw.textbbox((0, 0), line, font=font_text)
+        text_w, text_h = line_bbox[2] - line_bbox[0], line_bbox[3] - line_bbox[1]
         draw.text((init_x, current_y), line, font=font_text, fill=(0, 0, 0))
         current_y += text_h + pad
 
-    if (card.sub_text):
-        sub_w, sub_h = draw.textsize(card.sub_text, font=font_sub)
+    if card.sub_text:
+        sub_bbox = draw.textbbox((0, 0), card.sub_text, font=font_sub)
+        sub_w, sub_h = sub_bbox[2] - sub_bbox[0], sub_bbox[3] - sub_bbox[1]
         sub_x, sub_y = end_x - sub_w, end_y - sub_h
-        draw.text((sub_x, sub_y),
-                  card.sub_text,
-                  font=font_sub,
-                  fill=(127, 127, 127))
+        draw.text((sub_x, sub_y), card.sub_text, font=font_sub, fill=(127, 127, 127))
 
     return img_pil
 
@@ -89,7 +97,7 @@ def splice_list(cards_list, list_name, country):
     return spliced_base
 
 
-def generate(country):
+def generate_sprite(country):
     with open("../text/cards_" + country.name + ".json") as cards_info:
         cards_base = []
         cards_ex = []
@@ -122,7 +130,49 @@ def generate(country):
         splice_list(cards_base, "base", country.name)
         splice_list(cards_ex, "amah", country.name)
 
+def export_individual_cards(country):
+    base_output_dir = "../Cards/Individual/"
+    country_output_dir = os.path.join(base_output_dir, country.name)
+    basic_output_dir = os.path.join(country_output_dir, "basic")
+    special_output_dir = os.path.join(country_output_dir, "special")
 
+    if os.path.exists(country_output_dir):
+        shutil.rmtree(country_output_dir)
+    os.makedirs(basic_output_dir)
+    os.makedirs(special_output_dir)
+    
+    scale = 2
+
+    total_basic_cards = {}
+    for card_type, num in country.base_basic_cards.items():
+        total_basic_cards[card_type] = num
+    for card_type, num in country.ex_basic_cards.items():
+        if card_type in total_basic_cards:
+            total_basic_cards[card_type] += num
+        else:
+            total_basic_cards[card_type] = num
+
+    for card_type, total_num in total_basic_cards.items():
+        card_image = draw_card(Card(type=card_type, country=country.name), scale=scale)
+        if card_image:
+            output_path = os.path.join(basic_output_dir, f"[{total_num}]{card_type}.png")
+            card_image.save(output_path, format="PNG")
+    
+    with open(f"../text/cards_{country.name}.json", encoding='utf-8') as cards_info:
+        cards_data = json.load(cards_info)
+        for card_dict in cards_data:
+            card = Card(**card_dict)
+            if not getattr(card, 'substituted', False):
+                try:
+                    card_image = draw_card(card, scale=scale)
+                    if card_image:
+                        output_path = os.path.join(special_output_dir, f"{card.title}.png")
+                        card_image.save(output_path, format="PNG")
+                except Exception as e:
+                    print(f"Error processing card: {card.title}")
+                    print(f"Error details: {str(e)}")
+                    traceback.print_exc()
+                                               
 uk = Country("UK", {"BA": 5, "LB": 4, "BN": 5, "SB": 5}, {"BN": 1, "AP": 4})
 us = Country("US", {"BA": 5, "LB": 4, "BN": 5, "SB": 4}, {"AP": 6})
 ussr = Country("USSR", {
@@ -148,7 +198,10 @@ ita = Country("ITA", {
 })
 jp = Country("JP", {"BA": 4, "LB": 3, "BN": 6, "SB": 4}, {"BN": 1, "AP": 5})
 all_countries = [uk, us, ussr, gr, ita, jp]
+# all_countries = [uk]
 
-# generate(ussr)
-for c in all_countries:
-    generate(c)
+# main
+for country in all_countries:
+    # generate_sprite(country)
+    export_individual_cards(country)
+

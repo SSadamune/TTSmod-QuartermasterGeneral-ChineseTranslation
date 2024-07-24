@@ -7,8 +7,8 @@ from itertools import groupby
 
 #copy from docutils
 east_asian_widths = {
-    'W': 3,  # Wide
-    'F': 3,  # Full-width (wide)
+    'W': 2,  # Wide
+    'F': 2,  # Full-width (wide)
     'Na': 2,  # Narrow
     'H': 2,  # Half-width (narrow)
     'N': 2,  # Neutral (not East Asian, treated as narrow)
