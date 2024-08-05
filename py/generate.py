@@ -9,7 +9,7 @@ import traceback
 template = "../Cards/template/"
 
 class Card:
-    def __init__(self, title="", country="", type="", dlc="", text="", sub_text="", substituted=False, cn_fr="", meme=""):
+    def __init__(self, title="", country="", type="", dlc="", text="", sub_text="", substituted=False, cn_fr=""):
         self.title = title
         self.country = country
         self.type = type
@@ -18,7 +18,6 @@ class Card:
         self.sub_text = sub_text
         self.substituted = substituted
         self.cn_fr = cn_fr
-        self.meme = meme
 
 class Country:
     name = ""
